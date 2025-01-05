@@ -157,3 +157,5 @@ campionato = chiedi_squadre()
 campionato.simulazione()
 campionato.visualizza_classifica()
 campionato.visualizza_classifica_marcatori()
+
+#TODO cartellini + infortuni + reti inviolate
