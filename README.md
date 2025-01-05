@@ -61,7 +61,7 @@ pip install matplotlib
 2.Apri un terminale nella directory del progetto.
 3.Esegui il programma con il seguente comando:
 ```sh
-python beta.py
+python main.py
 ```
 ### Inserimento dei Nomi delle Squadre
 
