@@ -1,4 +1,4 @@
-# Diagramma UML per beta.py
+# Diagramma UML per main.py
 
 ```mermaid
 classDiagram
@@ -8,13 +8,16 @@ classDiagram
         -float abilita
         -int gol
         +Calciatore(String nome, String ruolo, float abilita)
-        +sega_gol()
+        +segna_gol()
     }
 
     class Squadra {
         -String nome
         -float forza
         -int punti
+        -int vittorie
+        -int pareggi
+        -int sconfitte
         -List~Calciatore~ calciatori
         +Squadra(String nome, float forza)
         +aggiungi_punti(int punti)
