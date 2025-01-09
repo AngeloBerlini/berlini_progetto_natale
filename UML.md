@@ -31,5 +31,5 @@ classDiagram
         +visualizza_classifica_marcatori()
     }
 
-    Calciatore --> Squadra : appartiene a
-    Squadra --> Campionato : partecipa a
+    Calciatore "11" --> "1" Squadra : appartengono a
+    Squadra "20" --> "1" Campionato : partecipano a
