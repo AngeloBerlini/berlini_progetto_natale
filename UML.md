@@ -3,8 +3,8 @@
 ```mermaid
 classDiagram
     class Calciatore {
-        -String nome
-        -String ruolo
+        -Str nome
+        -Str ruolo
         -float abilita
         -int gol
         +Calciatore(String nome, String ruolo, float abilita)
@@ -12,7 +12,7 @@ classDiagram
     }
 
     class Squadra {
-        -String nome
+        -Str nome
         -float forza
         -int punti
         -int vittorie
