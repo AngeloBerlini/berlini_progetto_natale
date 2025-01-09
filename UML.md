@@ -19,7 +19,7 @@ classDiagram
         -int pareggi
         -int sconfitte
         -List~Calciatore~ calciatori
-        +Squadra(String nome, float forza)
+        +Squadra(Str nome, float forza)
         +aggiungi_punti(int punti)
         +aggiungi_calciatore(Calciatore calciatore)
     }
