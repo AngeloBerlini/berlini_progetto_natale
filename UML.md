@@ -7,7 +7,6 @@ classDiagram
         -Str ruolo
         -float abilita
         -int gol
-        +Calciatore(String nome, String ruolo, float abilita)
         +segna_gol()
     }
 
@@ -19,14 +18,12 @@ classDiagram
         -int pareggi
         -int sconfitte
         -List~Calciatore~ calciatori
-        +Squadra(Str nome, float forza)
         +aggiungi_punti(int punti)
         +aggiungi_calciatore(Calciatore calciatore)
     }
 
     class Campionato {
         -List~Squadra~ squadre
-        +Campionato()
         +aggiungi_squadra(Squadra squadra)
         +simulazione()
         +classifica() List~Squadra~
